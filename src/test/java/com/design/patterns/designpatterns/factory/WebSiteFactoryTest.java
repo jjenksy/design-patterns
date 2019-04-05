@@ -15,7 +15,7 @@ public class WebSiteFactoryTest {
 
 		System.out.println(site.getPages());
 
-		site = WebSiteFactory.getWebSite(WebSiteType.BLOG);
+		site = WebSiteFactory.getWebSite(WebSiteType.SHOP);
 
 		System.out.println(site.getPages());
 
